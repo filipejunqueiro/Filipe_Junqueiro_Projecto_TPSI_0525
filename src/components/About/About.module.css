@@ -1,0 +1,43 @@
+.inner {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-inline: 50px;
+  align-items: center;
+
+  @media (max-width: $mantine-breakpoint-md) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.title {
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  font-family: Outfit, var(--mantine-font-family);
+  font-size: 44px;
+  line-height: 1.2;
+  font-weight: 500;
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    font-size: 28px;
+  }
+}
+
+.image {
+  width: 376px;
+  height: 356px;
+  object-fit: contain !important;
+
+  @media (max-width: $mantine-breakpoint-md) {
+    width: 100%;
+    height: 30vh;
+    visibility: visible;
+  }
+}
+
+.highlight {
+  position: relative;
+  background-color: var(--mantine-color-blue-light);
+  border-radius: var(--mantine-radius-sm);
+  padding: 4px 12px;
+}

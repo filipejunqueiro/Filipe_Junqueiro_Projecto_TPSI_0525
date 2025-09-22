@@ -1,14 +1,15 @@
-import Header from "../Header/Header";
-import classes from "./App.module.css";
 import { useState } from "react";
 import type { Component } from "../../types/Component";
+import classes from "./App.module.css";
+import Header from "../Header/Header";
+import About from "../About/About";
 import Footer from "../Footer/Footer";
 
 const components: Component[] = [
   {
-    label: "Header",
-    component: Header,
-    default: false,
+    label: "About",
+    component: About,
+    default: true,
   },
 ];
 
