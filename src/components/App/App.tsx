@@ -4,12 +4,18 @@ import classes from "./App.module.css";
 import Header from "../Header/Header";
 import About from "../About/About";
 import Footer from "../Footer/Footer";
+import Projects from "../Projects/Projects";
 
 const components: Component[] = [
   {
     label: "About",
     component: About,
     default: true,
+  },
+  {
+    label: "Projects",
+    component: Projects,
+    default: false,
   },
 ];
 
