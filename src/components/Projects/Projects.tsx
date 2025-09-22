@@ -2,18 +2,13 @@ import { Carousel } from "@mantine/carousel";
 import { Button, Paper, Text, Title, useMantineTheme } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 import classes from "./Projects.module.css";
-
-interface CardProps {
-  image: string;
-  title: string;
-  link: string;
-}
+import type { ProjectCardProps } from "../../types/ProjectCardProps";
 
 function openWin(link: string) {
   window.open(link, "_blank");
 }
 
-function Card({ image, title, link }: CardProps) {
+function Card({ image, title, link }: ProjectCardProps) {
   return (
     <Paper
       shadow="md"
