@@ -1,6 +1,7 @@
 import { Image, Container, Group } from "@mantine/core";
 import classes from "./Header.module.css";
 import type { HeaderProps } from "../../types/HeaderProps";
+import avatar from "../../assets/filipe_junqueiro_avatar.png";
 
 function Header(props: HeaderProps) {
   const items = props?.components?.map((c) => (
@@ -21,12 +22,7 @@ function Header(props: HeaderProps) {
     <header className={classes.header}>
       <Container fluid className={classes.inner}>
         <div className={classes.logo}>
-          <Image
-            src="/src/assets/filipe_junqueiro_avatar.png"
-            alt="Filipe Junqueiro"
-            h="80%"
-            w="auto"
-          />
+          <Image src={avatar} alt="Filipe Junqueiro" h="80%" w="auto" />
           <span>Filipe Junqueiro</span>
         </div>
         <Group gap={5}>{items}</Group>
