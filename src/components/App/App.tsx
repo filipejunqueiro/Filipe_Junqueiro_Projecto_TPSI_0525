@@ -1,8 +1,8 @@
-import Header from "./Header/Header";
+import Header from "../Header/Header";
 import classes from "./App.module.css";
 import { useState } from "react";
-import type { Component } from "../types/Component";
-import Footer from "./Footer/Footer";
+import type { Component } from "../../types/Component";
+import Footer from "../Footer/Footer";
 
 const components: Component[] = [
   {
