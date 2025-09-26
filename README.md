@@ -1,4 +1,4 @@
-<div align="left" style="position: relative;">
+<div align="center" style="position: relative;">
   <h1>FILIPE_JUNQUEIRO_PROJECTO_TPSI_0525</h1>
   <p align="center">
     <img src="https://img.shields.io/github/last-commit/filipejunqueiro/Filipe_Junqueiro_Projecto_TPSI_0525?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
