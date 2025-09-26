@@ -1,6 +1,6 @@
 <div align="left" style="position: relative;">
   <h1>FILIPE_JUNQUEIRO_PROJECTO_TPSI_0525</h1>
-  <p align="left">
+  <p align="center">
     <img src="https://img.shields.io/github/last-commit/filipejunqueiro/Filipe_Junqueiro_Projecto_TPSI_0525?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
     <img src="https://img.shields.io/github/languages/top/filipejunqueiro/Filipe_Junqueiro_Projecto_TPSI_0525?style=default&color=0080ff" alt="repo-top-language">
     <img src="https://img.shields.io/github/languages/count/filipejunqueiro/Filipe_Junqueiro_Projecto_TPSI_0525?style=default&color=0080ff" alt="repo-language-count">
@@ -12,7 +12,6 @@
 ## 🔗 Table of Contents
 
 - [📍 Overview](#📍-overview)
-- [👾 Features](#👾-features)
 - [📁 Project Structure](#📁-project-structure)
   - [📂 Project Index](#📂-project-index)
 - [🚀 Getting Started](#🚀-getting-started)
